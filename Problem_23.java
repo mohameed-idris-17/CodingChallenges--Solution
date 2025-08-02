@@ -7,7 +7,7 @@ import java.util.*;
 
     for(int i=0;i<n*n;i++){
 
-        if(i%2==0)
+        if(n%i==0)
           {
                mat[0][i]='*';
       }
