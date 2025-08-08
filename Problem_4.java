@@ -11,7 +11,11 @@ public class Problem_4 {
 
         for (char digit : str.toCharArray()) {
             if (digit != '0') {
-                System.out.print(digit + "0".repeat(len) + " ");
+                System.out.print(digit + "0".repeat(len) );
+
+            }
+            if(len > 1){
+                System.out.print("+");
             }
             len--;
         }
